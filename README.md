@@ -1,1 +1,1 @@
-# Amazion-command-list
+# Amazon-command-list
