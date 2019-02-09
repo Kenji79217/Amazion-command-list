@@ -22,3 +22,11 @@ for d in data:   #每一筆資料都叫做d
     print(sum_len)
 
 print('留言的平均長度為', sum_len/len(data))
+
+#篩選概念
+
+new = []  #先創一個空白清單
+for d in data:  #把清單(data)裡的留言 d(字串) 一個一個拿出來
+    if len(d) < 100:  #如果你的長度小於100 就裝入 new 清單
+        new.append(d)
+print('一共有', len(new), '筆留言長度小於100')
